@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+caption {
+  font-size: 20px;
+}
+
+/* Flexbox */
+body {
+  min-height: 100vh;
+  background: url(1155.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: solid 2px black;
+  border-collapse: collapse;
+  padding: "";
+}
+
+/* Images and background */
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+
+.table-wrapper {
+  background-color: #fff9;
+}
+
+table,
+caption,
+th {
+  padding: 1rem;
+}
+
+/* TD  */
+td {
+  color: black;
+}
+.exercise {
+  width: 500px;
+  text-align: start;
+}
+.weight {
+  width: 10vh;
+}
+
+.note {
+  width: 30vh;
+  text-align: start;
+  border-left: solid 2px #2f2ffa;
+  padding: 0px 10px 0px 10px;
+}
+
+/* TH */
+th {
+  width: fit-content;
+  border: solid 2px black;
+  text-align: center;
+
+  color: white;
+  background-color: #2f2ffa;
+}
+
+td,
+tr {
+  text-align: center;
+  border-bottom: solid 2px #2f2ffa;
+}
+
+/* HOVER */
+th:hover {
+  color: greenyellow;
+}
+tr:hover {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+/* .test-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+} */
+
+/* Когато посоча ред да се отбелязва  */
+/* Като посоча колона да се отбелязва цялата - не е нужно в случая*/
+/* Искам да я центрирам по средата на екрана! */
+/* Искам да става и за смартфон и таблет */
+/* Да оправя линковете на упражненията - включи JS, ако ще ти бъде от полза */
+/* За промяна остана opdcityto на background, fonta и hover! */
